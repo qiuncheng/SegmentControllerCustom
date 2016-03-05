@@ -13,7 +13,7 @@ import UIKit
     private var labels = [UILabel]()
     
     var thumbView = UIView()
-    
+    @IBInspectable
     var items: [String] = ["item1", "item2", "item3"] {
         didSet {
             setupLabels()
